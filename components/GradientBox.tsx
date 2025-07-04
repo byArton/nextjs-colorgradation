@@ -24,16 +24,6 @@ export default function GradientBox() {
 
   const gradient = `linear-gradient(135deg, ${colors[0]}, ${colors[1]})`;
 
-  const [copied, setCopied] = useState(false);
-
-  const handleCopy = async () => {
-    await navigator.clipboard.writeText(
-      `${colors[0].toUpperCase()} → ${colors[1].toUpperCase()}`
-    );
-    setCopied(true);
-    setTimeout(() => setCopied(false), 1200);
-  };
-
   return (
     <div className="flex flex-col items-center">
       <AnimatePresence mode="wait">
