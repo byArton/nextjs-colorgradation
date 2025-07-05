@@ -19,7 +19,7 @@ export const metadata = {
 function Header() {
   return (
     <div
-      className="flex justify-between items-center h-15 w-full bg-white shadow-sm pl-8 pr-8 fixed top-0 left-0 right-0 z-50 pr-4 pl-4
+      className="flex justify-between items-center h-15 w-full bg-white shadow-sm pl-8 pr-8 fixed top-0 left-0 right-0 z-50
     sm:pr-6 sm:pl-6
     md:pr-10 md:pl-10
     lg:pr-20 lg:pl-20"

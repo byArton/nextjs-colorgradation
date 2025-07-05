@@ -137,7 +137,7 @@ export default function GradientBox() {
     `linear-gradient(135deg, ${c1}, ${c2})`;
 
   return (
-    <div className="w-full flex flex-col font-sans mt-10 sm:mt-6 lg:mt-0">
+    <div className="w-full flex flex-col font-sans">
       {/* メインカード（今のグラデーション） */}
       <div className="relative w-full aspect-[16/9] mb-8 overflow-hidden rounded-4xl shadow-lg shadow-black/10">
         <button
@@ -189,7 +189,7 @@ export default function GradientBox() {
       {/* 保存済みカード一覧 */}
 
       <div className="flex flex-wrap gap-3 justify-start w-full mt-8 p-2">
-        <h2 className="w-full text-lg font-bold mb-2 text-[#333]">ALL</h2>
+        <h2 className="w-full text-lg font-bold mb-2 text-[#333]">一覧</h2>
 
         <AnimatePresence>
           {saved.map(({ id, colors: g }) => (
