@@ -1,8 +1,15 @@
+// app/page.tsx
+
 import GradientBox from '@/components/GradientBox';
 
 export default function Home() {
   return (
-    <main className="min-h-screen bg-gradient-to-b from-white via-neutral-100 to-neutral-200 flex items-center justify-center">
+    <main
+      className="
+    min-h-screen w-full flex items-start justify-center
+    p-3 sm:p-6 md:p-10 lg:p-20 
+  "
+    >
       <GradientBox />
     </main>
   );
