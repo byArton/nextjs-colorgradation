@@ -1,36 +1,34 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Palette Gradient App
 
-## Getting Started
+A beautiful, responsive web app for creating and saving gradient color palettes.
+Built with Next.js 15, React 19, Tailwind CSS 4, Framer Motion, FontAwesome, Lucide-react, and Google Fonts.
 
-First, run the development server:
+# Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- 🎨 Generate unique 2-color gradients with a single click
+- ⭐ Save your favorite gradients, and recall them anytime
+- 🗑️ Delete any saved palette with a smooth animation
+- 📋 Copy color codes instantly to your clipboard
+- 💎 Responsive: Beautiful on both desktop and mobile
+- ✨ Smooth Animations powered by Framer Motion
+- 🖋️ Modern fonts with Noto Sans JP and Tiny5
+- 🖼️ Minimal, intuitive UI with a fixed bottom action bar and header
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+# Tech Stack
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- Next.js 15 (App Router)
+- React 19
+- Tailwind CSS 4
+- Framer Motion 12
+- FontAwesome 6
+- Lucide-react
+- Google Fonts (Noto Sans JP, Tiny5)
+- TypeScript
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+# Customization
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- Header/Branding: Edit /app/layout.tsx to change the app title, icon, or font.
+- Font: Uses Noto Sans JP by default.
+  To change, update the globals.css and font import section.
+- Gradient Generation Logic:
+  Tweak the logic in GradientBox.tsx for different gradient styles.
